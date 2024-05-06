@@ -1,0 +1,25 @@
+{
+  "name": "@khizra_irfan/student-management-system",
+  "version": "1.0.0",
+  "description": "An Object-Oriented Student Management System designed to efficiently handle student enrollment, course management and tuition fees within an educational institution.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.8"
+  },
+  "dependencies": {
+    "@khizra_irfan/student-management-system": "^1.0.0",
+    "inquirer": "^9.2.20"
+  }
+}
